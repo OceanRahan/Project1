@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<style>
+#top {
+  font-size:20px;
+}
+#middle {
+  font-size:30px;
+
+}
+#Bottom {
+  font-size:40px;
+}
+.name{
+  font-weight: bold;
+  font-family: sans-serif;
+  color:  blue;
+
+}
+</style>
+<body>
+  <div id="top">
+    This is the <span class=name>top</span> Of the page
+  </div>
+  <div id ="middle">
+    This is the <span  class=name>middle</span> of the page
+  </div>
+  <div ID ="Bottom">
+    This is the <span class=name>Bottom</span> of the page
+  </div>
+</body>
+</html>
+<!--
+Notes: 1. We can use both class and id in div as well.
+<div id="top" class=name">
+in this way.
+same goes for span also.
+2. What happens in case of any conflict?
+For example: if we used color:red in top and color: blue in name then at first the whole sentence
+is red but then only top will show blue. Because, blue is more native to it as we used span over it. 
+
+-->
